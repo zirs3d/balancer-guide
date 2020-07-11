@@ -1,6 +1,8 @@
-{%hackmd theme-dark %}
 
-Guide to  IHF on Balancer
+
+Guide to Balancer - IHF Pool
+
+*A short introduction guide to Balancer*
 [![hackmd-github-sync-badge](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg/badge)](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg)
 
 ## Introduction
@@ -97,3 +99,5 @@ Tip: Using the Add Single Asset feature on Balancer, allows you to swap using th
 You will also need to click Unlock for each token, which gives the smart-exchange contract permission to receive your digital assets.
 
 *Thank you for reading!*
+
+{%hackmd theme-dark %}
