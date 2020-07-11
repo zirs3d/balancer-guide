@@ -1,6 +1,7 @@
-Guide to  IHF on Balancer
-
 {%hackmd theme-dark %}
+
+Guide to  IHF on Balancer
+[![hackmd-github-sync-badge](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg/badge)](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg)
 
 ## Introduction
 IHF now trading on Balancer.Finance, allows you to swap the IHF token directly with Ether using WETH or USDC
