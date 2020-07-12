@@ -77,7 +77,7 @@ The following example explains how the pool pairs IHF tokens within the pool as 
 **Option A**  
 IHF -- WETH  (*0.75*)   
 75% : 25%   
-Pairs with *WETH*, ratio factor of 0.75
+Pairs with *WETH*, ratio factor of 0.75  
 
 **Option B**  
 IHF -- USDC (*0.85*)  
@@ -88,7 +88,7 @@ C20 -- USDC (0.65)
 
 IHF -- C20 (*0.75*)   
 66% : 22%  
-Pairs with *C20*, ratio factor of 0.75
+Pairs with *C20*, ratio factor of 0.75  
 
 ## Usage
 ### Trading /  Swap individual tokens
