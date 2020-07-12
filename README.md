@@ -1,9 +1,12 @@
 
-
-Guide to Balancer - IHF Pool
+Balancer - IHF Pool
+===
 
 *A short introduction guide to Balancer*
-[![hackmd-github-sync-badge](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg/badge)](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg)
+[![hackmd-github-sync-badge](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg/badge)](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg)  
+- [x] First steps  
+*-- prelim draft --*
+
 
 ## Introduction
 IHF now trading on Balancer.Finance, allows you to swap the IHF token directly with Ether using WETH or USDC
@@ -68,7 +71,7 @@ Current market amounts, buy:sell sides- totaling ~$223K
 
 
 #### $BAL Annual Rewards / IL protection
-The yield generated on IHF token Balancer pools derives from swap fees of (1.19%), in addition to annual BAL distribution rewards of ~24% APY.  
+The yield generated on IHF token Balancer pools derives from swap fees of between 95-119 basis points (per trade), in addition to annual BAL distribution rewards of ~24% APY.  
 The following example explains how the pool pairs IHF tokens with USDC, ratio factor of 0.742 (see example) within the pool as protection against impermanence loss (IL).
 
 **Option A**  
