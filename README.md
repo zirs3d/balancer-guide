@@ -72,18 +72,23 @@ Current market amounts, buy:sell sides- totaling ~$223K
 
 #### $BAL Annual Rewards / IL protection
 The yield generated on IHF token Balancer pools derives from swap fees of between 95-119 basis points (per trade), in addition to annual BAL distribution rewards of ~24% APY.  
-The following example explains how the pool pairs IHF tokens with USDC, ratio factor of 0.742 (see example) within the pool as protection against impermanence loss (IL).
+The following example explains how the pool pairs IHF tokens within the pool as protection against impermanence loss (IL):
 
 **Option A**  
-IHF -- WETH  (*0.750*)   
-75% : 25% 
+IHF -- WETH  (*0.75*)   
+75% : 25%   
+Pairs with *WETH*, ratio factor of 0.75
 
 **Option B**  
-IHF -- C20 (*0.750*)   
-66% : 22%  
-
-IHF -- USDC (*0.846*)  
+IHF -- USDC (*0.85*)  
 66% : 12%    
+
+C20 -- USDC (0.65)  
+22% : 12%
+
+IHF -- C20 (*0.75*)   
+66% : 22%  
+Pairs with *C20*, ratio factor of 0.75
 
 ## Usage
 ### Trading /  Swap individual tokens
