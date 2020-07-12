@@ -37,15 +37,15 @@ For illustration:
 
 ### Option B: IHF -- C20 Believer
 IHF -- C20 Balancer Pool address:  
-**66% IHF -- 17% USDC -- 17% C20**  
+**66% IHF -- 12% USDC -- 22% C20**  
 IHF Balancer liquidity pool earned swap fee is @ 0.95% 
 
 Providing USD$ 10,000 worth of IHF -- C20 liquidity -   
 For illustration:  
 - Staking 70,423 IHF tokens 
 (quoted price at $0.142)  
-- Staking $ 2,576 worth of C20 tokens  
-- Staking $ 2,576 worth of WETH tokens  
+- Staking $ 3,333 worth of C20 tokens  
+- Staking $ 1,818 worth of USDC tokens  
 
 ### BAL governance tokens
 BAL token imparts governance/voting rights, which incentivize liquidity providers aiming to achieve yield on IHF holdings, along with future improvements reaping gas savings over time.  
@@ -79,10 +79,11 @@ IHF -- WETH  (*0.750*)
 75% : 25% 
 
 **Option B**  
-IHF -- USDC (*0.742*)  
-66% : 17%    
-IHF -- C20 (*0.742*)   
-66% : 17%  
+IHF -- C20 (*0.750*)   
+66% : 22%  
+
+IHF -- USDC (*0.846*)  
+66% : 12%    
 
 ## Usage
 ### Trading /  Swap individual tokens
