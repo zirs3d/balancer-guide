@@ -28,7 +28,7 @@ IHF Balancer Pool address:
 **75% IHF -- 25% WETH**  
 IHF Balancer liquidity pool earned swap fees is @ 1.19% 
 
-Providing USD$ 10,000 worth of IHF liquidity -  
+Providing USD$ 10,000 worth of IHF liquidity,  
 For illustration:    
 - Staking 70,423 IHF tokens 
 (quoted price at $0.142)
@@ -40,7 +40,7 @@ IHF -- C20 Balancer Pool address:
 **66% IHF -- 12% USDC -- 22% C20**  
 IHF Balancer liquidity pool earned swap fee is @ 0.95% 
 
-Providing USD$ 10,000 worth of IHF -- C20 liquidity -   
+Providing USD$ 10,000 worth of IHF -- C20 liquidity,  
 For illustration:  
 - Staking 70,423 IHF tokens 
 (quoted price at $0.142)  
