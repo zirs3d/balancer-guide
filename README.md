@@ -22,7 +22,7 @@ To strike a fine balance between slippage and APR, having WETH/USDC pairings wit
 
 Following are options for tracking price discovery between market price and the underlying Invictus Hyperion Fund (IHF) AUM -- current NAV
 
-### Option A: IHF Balancer
+### Pool A: IHF Balancer
 
 IHF Balancer Pool address:  
 **75% IHF -- 25% WETH**  
@@ -35,7 +35,7 @@ For illustration:
   (quoted price at \$0.142)
 - Staking \$ 3,333 worth of WETH tokens
 
-### Option B: IHF -- C20 Balancer
+### Pool B: IHF -- C20 Balancer
 
 IHF -- C20 Balancer Pool address:  
 **66% IHF -- 12% USDC -- 22% C20**  
@@ -49,16 +49,26 @@ For illustration:
 - Staking \$ 3,333 worth of C20 tokens
 - Staking \$ 1,818 worth of USDC tokens
 
-### BAL governance tokens
+#### BAL governance tokens
 
 BAL token imparts governance/voting rights, which incentivize liquidity providers aiming to achieve yield on IHF holdings, along with future improvements reaping gas savings over time.  
-There are shared token pools of varying degrees of liquidity and pool fees. IHF Balancer Pool whitelisted, and approved for the \$BAL Governance distribution rewards.  
+There are shared token pools of varying degrees of liquidity and pool fees. IHF Balancer Pool whitelisted, and approved for the BAL Governance distribution rewards.  
 -- Annual BAL rewards - https://www.prediction.exchange/balancer  
 -- About BAL token - https://docs.balancer.finance/protocol/bal-balancer-governance-token
 
-> Currently accepting seeding of liquidity directly on Balancer.Finance for BAL Pool incentives, help us grow the community of IHF investors to reach a target capture of \$125K across DeFi markets
+### Liquidity ripples - Yield projection
+
+> Currently accepting seeding of liquidity directly on Balancer.Finance for BAL Pool incentives, help us grow the community of IHF investors to target a capture of \$125K across DeFi markets
+
+###### Balancer Pool A - 
+##### 130 WETH equivalent : $90K IHF equivalent
+
+###### Balancer Pool B - 
+##### 45K USDC+C20 equivalent : $90K IHF equivalent
 
 ```
+Buy side : Sell side
+
 Total liquidity, on Liquid Exchange -
 BTC pairs | Range $0.06-$0.16 | $ 2K : $ 125K
 
@@ -69,24 +79,24 @@ Total liquidity, on IDEX Exchange -
 ETH Pairs | Range $0.06-$0.16 | $ 3K : $ 25K
 
 Current market amounts, buy:sell sides- totaling ~$223K
-
 ```
+https://twitter.com/mikeraymcdonald/status/1250099292200742915
 
 #### \$BAL Annual Rewards / IL protection
 
 The yield generated on IHF token Balancer pools derives from swap fees of between 95-119 basis points (per trade), in addition to annual BAL distribution rewards of ~24% APY.  
 The following example explains how the pool pairs IHF tokens within the pool as protection against impermanence loss (IL):
 
-**Option A**  
+**Pool A**  
 *IHF -- WETH (0.75)*  
 75% : 25%  
 Pairs with _WETH_, ratio factor of 0.75
 
-**Option B**  
-IHF -- USDC (_0.85_)  
+**Pool B**  
+*IHF* -- USDC (_0.85_)  
 66% : 12%
 
-C20 -- USDC (0.65)  
+*C20* -- USDC (0.65)  
 22% : 12%
 
 *IHF -- C20 (0.75)*  
@@ -95,7 +105,7 @@ Pairs with _C20_, ratio factor of 0.75
 
 ## Usage
 
-### Trading / Swap individual tokens
+### Trade / Swap individual tokens
 
 Navigate to https://balancer.exchange  
 (or use https://1inch.exchange aggregator)  
@@ -114,6 +124,12 @@ Tip: Using the Add Single Asset feature on Balancer, allows you to swap using th
 > If this is your first time your wallet connects with this smart-exchange contract you will need to click Setup Proxy, which creates a proxy contract to manage your liquidity.  
 > You will also need to click Unlock for each token, which gives the smart-exchange contract permission to receive your digital assets.
 
+### Tools for further exploration:  
+https://pools.vision (ability to filter views of selected pools in the header)  
+https://pools.fyi/#/?platform=balancer (Pool trackers)  
+https://bal-reports.herokuapp.com (weekly bal rewards)
+
 _Thank you for reading!_
+
 
 {%hackmd theme-dark %}
