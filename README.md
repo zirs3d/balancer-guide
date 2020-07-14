@@ -4,23 +4,37 @@ _A short introduction guide to Balancer_
 [![hackmd-github-sync-badge](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg/badge)](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg)
 
 - [x] First steps  
-       _-- prelim draft --_
+       _-- prelim draft --_  
+       _-- awaiting quarterly Report - Hyperion Q2 Report --_
+- [x] Listing on Balancer Finance  
+       _-- The IHF token now has a NAV of $0.1765 --_
 
-## Introduction
+> …by implementing the token buy-and-burn protocol. Much like a share repurchase in
+traditional markets, the Hyperion fund will place buy orders on exchange below, and up to, the
+prevailing NAV price per token  
+-- Hyperion Fund (IHF) 2020 Q2 Quarterly Report
 
-IHF now trading on Balancer.Finance, allows you to swap the IHF token directly with Ether using WETH or USDC
 
+![Invictus Hyperion Fund - IHF 2020 Q2 Report]( https://i.imgur.com/ZNVOWUYm.png "IHF 2020 Q2 Report")
+
+https://invictuscapital.com/article/hyperion-q2-2020-report
+
+## Introduction to IHF Balancer Pool
+
+IHF now trading on Balancer.Finance, the user can swap IHF tokens directly with Ether using WETH or USDC  
 Balancer Finance - https://balancer.finance  
-Balancer Exchange - https://balancer.exchange
 
-> This is a community effort, to experiment with incentivised liquidity pooling on Balancer using 1inch.exchange aggregation and purchase/redeem via multi-hop smart-order routing with other stablecoins/tokens.
+
+> This is a guide to providing liquidity to IHF tokens by utilizing Balancer liquidity pools, using the [1inch.exchange aggregation](https://1inch.exchange/#/r/0x4881afc1d2a8ed216484cd4757f84eeb4831e2b2)  (on the 'Earn' tab), also enabling users to purchase/redeem IHF via multi-hop smart-order routing pairs with other stablecoins/tokens
 
 ## Liquidity Pooling on Balancer
 
-To strike a fine balance between slippage and APR, having WETH/USDC pairings with Invictus Hyperion Fund (IHF) token, eligible LPs participate in trading volume (which earns liquidity pool token swap fees) with Balancer Pool-liquidity Tokens (BPT), while receiving weekly BAL Governance tokens.  
--- Using Liquidity Pools - https://pools.balancer.exchange
+To strike a fine balance between slippage and APR, much like arbing on the usual exchanges with WETH/USDC pairings with Hyperion Fund (IHF) token, a Liquidity Provider (LP) participates in trading volume (earns liquidity pool token swap-fees) with Balancer Pool-liquidity tokens (BPT). By supplying to a Balancer Pool, LPs also receive weekly BAL Governance tokens.  
+-- Using Liquidity Pools - https://pools.balancer.exchange  
+-- Liquidity Pools tracker - https://pools.fyi/#/?platform=balancer  
 
-Following are eligible pools for tracking price discovery between market price and the underlying Invictus Hyperion Fund (IHF) AUM -- current NAV
+
+The following are eligible pools for tracking price discovery between market price and the underlying  Hyperion Fund (IHF) AUM -- current NAV
 
 ### Pool A: IHF Balancer
 
@@ -31,8 +45,8 @@ IHF Balancer liquidity pool earned swap fees is @ 1.19%
 Providing USD\$ 10,000 worth of IHF liquidity,  
 For illustration:
 
-- Staking 70,423 IHF tokens
-  (quoted price at \$0.142)
+- Staking 56,657 IHF tokens
+  (quoted price @ NAV \$0.1765)
 - Staking \$ 3,333 worth of WETH tokens
 
 ### Pool B: IHF -- C20 Balancer
@@ -44,8 +58,8 @@ IHF Balancer liquidity pool earned swap fee is @ 0.95%
 Providing USD\$ 10,000 worth of IHF -- C20 liquidity,  
 For illustration:
 
-- Staking 70,423 IHF tokens
-  (quoted price at \$0.142)
+- Staking 56,657 IHF tokens
+  (quoted price @ NAV \$0.1765)
 - Staking \$ 3,333 worth of C20 tokens
 - Staking \$ 1,818 worth of USDC tokens
 
@@ -57,17 +71,14 @@ There are shared token pools of varying degrees of liquidity, and pool fees. IHF
 -- About BAL governance tokens:  
 https://docs.balancer.finance/protocol/bal-balancer-governance-token
 
--- Annual BAL rewards:   
-https://www.prediction.exchange/balancer  
+![Balancer ripples touchpoints](https://i.imgur.com/vNiw3Eem.png "Balancer ripples touchpoints" )
 
-![Balancer ripples touchpoints](https://i.imgur.com/vNiw3Ee.png "balancer-ripples-touchpoints" =351x251)
-
--- Discussion on multi-assets pools compared to ETH<>Token 50/50:  
+-- Discussion on multi-hop pools compared to ETH <> Token 50/50:  
 https://twitter.com/mikeraymcdonald/status/1250099292200742915
 
 ### Liquidity ripples across Balancer Pools
 
-> Now accepting seeding of liquidity directly on Balancer.Finance, help us to grow the targeted capture of \$125K across DeFi markets currently for IHF Balancer Pool. 
+> Now accepting seeding of liquidity directly on Balancer.Finance, help us to grow the current targeted capture of \$125K across DeFi markets for the IHF Balancer Pool, aiming to achieve ~$20K in daily volume on both legs
 
 ###### Balancer Pool A - 
 ##### 130 WETH equivalent : $90K IHF equivalent
@@ -90,20 +101,23 @@ ETH Pairs | Range $0.06-$0.16 | $ 3K : $ 25K
 Current market amounts, buy:sell sides- totaling ~$223K
 ```
 
-## \$BAL Annual Rewards / IL protection
+## \$BAL Annual rewards / IL protection
 
-The yield generated on IHF token Balancer pools derives from swap fees of between 95-119 basis points (per trade), in addition to annual BAL distribution rewards of ~24% APY.  
-The following example explains how the pool pairs IHF tokens within the pool as protection against impermanence loss (IL):
+The yield generated on IHF token Balancer pools derives from swap fees of between 95-119 basis points (per trade), in addition to annual BAL distribution rewards.  
+This shows how pairing IHF tokens within the pool using a higher ratio than 50/50, serves as protection against impermanence loss (IL) in the following example:
 
 ### Pool A  
-***IHF -- WETH*** (_0.75_)  
-75% : 25%  
 Pairs with _WETH_, ratio factor of 0.75
 
+***IHF -- WETH*** (_0.75_)  
+75% : 25%  
+
 ### Pool B 
+Pairs with _C20_, ratio factor of 0.75
+
+
 ***IHF -- C20*** (_0.75_)  
 66% : 22%  
-Pairs with _C20_, ratio factor of 0.75
 
 *IHF* -- USDC (_0.85_)  
 66% : 12%
@@ -115,31 +129,78 @@ Pairs with _C20_, ratio factor of 0.75
 
 ### Trade / Swap individual tokens
 
-Navigate to https://balancer.exchange  
-(or use https://1inch.exchange aggregator)  
-Click Connect Wallet to connect your prefered Ethereum-compatible wallet.  
-Enables trading across pools with smart-order routing (SOR)
+- Navigate to https://balancer.exchange  
+(or use  https://1inch.exchange aggregator)  
+- Click Connect Wallet to connect your prefered Ethereum-compatible wallet.  Enabling trading across pools with smart-order routing (SOR)
+- Search for 'IHF' keyword / use the IHF contract address in the token search field, 
+IHF token on Etherscan.io -
+https://etherscan.io/token/0xaf1250fa68d7decd34fd75de8742bc03b29bd58e  
 
 ### To add liquidity to IHF Balancer Pool
 
-Navigate to https://pools.balancer.exchange  
-(or use https://1inch.exchange/#/earn aggregator)  
-Click Connect Wallet to connect your prefered Ethereum-compatible wallet.  
-Click Add Liquidity to add individual tokens into IHF tokens Balancer Pool.
+- Navigate to https://pools.balancer.exchange  
+or use the [1inch.exchange aggregation](https://1inch.exchange/#/r/0x4881afc1d2a8ed216484cd4757f84eeb4831e2b2) (on the 'Earn' tab)  
+- Click Connect Wallet to connect your prefered Ethereum-compatible wallet.  
+- Using the Filter token(s) button, and search for 'IHF' keyword / use the IHF contract address in the token search field (Shared Pools)
+- Click Add Liquidity to add individual tokens into the IHF Balancer Pool.
 
-#### Pro Tip: Adding Single Asset to Liquidity Pool
+#### Pro Tip: Adding Choice of Single Asset to the IHF Liquidity Pool
 
-Using the Add Single Asset feature on Balancer; allows you to swap using the choice of one asset into the entire pool, good for smaller amounts.
+Using the Add Single Asset feature on Balancer; allows you to assign and swap using the choice of one asset into the entire pool, good for smaller amounts.
 
-> If this is the first time your wallet connects with this smart-exchange contract you will need to click Setup Proxy, which will create and utilize a DSProxy contract to manage your liquidity pools.  
-> You will also need to click Unlock for each token, which gives the smart-exchange contract permission to receive your digital assets.
+> Note: If this is the first time your wallet connects with this smart-exchange contract you will need to click Setup Proxy, which will create and use a DSProxy contract to manage your liquidity pools  
 
-### Tools for further exploration:  
+> You will also need to click Unlock for each token, which gives the smart-exchange contract permission to receive your digital assets
+
+## Further reading and tools: 
+
+### Swap Aggregators
+1inch Exchange via [1inch.exchange aggregation](https://1inch.exchange/#/r/0x4881afc1d2a8ed216484cd4757f84eeb4831e2b2)  
+Totle Swap exchange via swap.totle.com  
+
+### Exchanges
+Balancer Exchange - https://balancer.exchange  
+Liquid - https://liquid.com  
+IDEX - https://idex.exchange  
+OVEX - https://www.ovex.io/products/c20
+
+
+### Information on Liquidity Pools  
+#### Liquidity Pool management
+-- https://pools.balancer.exchange (Balancer pools management)  
+-- https://docs.balancer.finance/protocol/bal-liquidity-mining  
+(BAL Distribution)
+
+#### Statistics
+-- https://pools.fyi/#/?platform=balancer (Liquidity Pools tracker)  
 -- https://pools.vision (ability to filter views of selected pools in the header)  
--- https://bal-reports.herokuapp.com (weekly BAL rewards)  
--- https://pools.fyi/#/?platform=balancer (Pool trackers)  
+-- https://bal-reports.herokuapp.com (weekly BAL distribution reports)  
+-- https://www.prediction.exchange/balancer (Annual BAL rewards)
+
+
+### Upcoming liquidity pools
+Now you can swap directly between IHF and C20 tokens
+
+When there is keen interest in Balancer pools with DZAR pairings, might be up for consideration to have a IHF / C20 pool linking to the stablecoin.
+
+### Remarks
+
+While researching on the equity holdings in the closed-end Hyperion Fund holdings and having read the whitepaper, which stating that:  
+
+> Token holders can realize their returns by selling into the purchase order made by the Hyperion Fund. Tokens purchased by the Fund are then destroyed, thereby reducing the supply of tokens. 
+
+https://cdn.invictuscapital.com/whitepapers/hyperion.pdf
+
+This inspires confidence that in the longer term, given that the tokenized closed-end VC fund is performing well, allowance of token buy-and-burns occuring every quarter, will propel the price of the token to stay close to the NAV.
+
+If you are reading this IHF Balancer Pool tutorial guide and find that it piques your interests (so do I); am active in the #hyperion-ihf community, not affiliated with Invictus Capital.  
+Thanks to the Hyperion community, especially mention `prof_k` for his wonderful guidance on creating the IHF Balancer Pool, and the DeFi concepts gleaned from the discussion
+
+Join the comumnity discussion on discord in the #hyperion-ihf channel:
+https://invictuscapital.com/hyperionFund
 
 _Thank you for reading!_
+
 
 
 {%hackmd theme-dark %}
