@@ -1,13 +1,14 @@
 # Balancer - IHF Pool
 
 _A short introduction guide to Balancer_
-[![hackmd-github-sync-badge](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg/badge)](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg)
 
 - [x] First steps  
        _-- prelim draft --_  
-       _-- awaiting quarterly Report - Hyperion Q2 Report --_
+       _-- awaiting Quarterly Report - Hyperion Q2 Report --_
 - [ ] Listing on Balancer Finance  
        _-- The IHF token now has a NAV of $0.1765 --_
+
+[![hackmd-github-sync-badge](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg/badge)](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg)
 
 > …by implementing the token buy-and-burn protocol. Much like a share repurchase in
 traditional markets, the Hyperion fund will place buy orders on exchange below, and up to, the
