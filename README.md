@@ -39,21 +39,21 @@ The following are eligible pools for tracking price discovery between market pri
 ### Pool A: IHF Balancer
 
 IHF Balancer Pool address:  
-**75% IHF -- 25% WETH**  
-IHF Balancer liquidity pool earned swap fees is @ 1.19%
+**80% IHF -- 20% WETH**  
+IHF Balancer liquidity pool earned swap fees is @ 1.19% (per trade)
 
 Providing USD\$ 10,000 worth of IHF liquidity,  
 For illustration:
 
 - Staking 56,657 IHF tokens
   (quoted price @ NAV \$0.1765)
-- Staking \$ 3,333 worth of WETH tokens
+- Staking \$ 2,500 worth of WETH tokens
 
 ### Pool B: IHF -- C20 Balancer
 
 IHF -- C20 Balancer Pool address:  
 **66% IHF -- 12% USDC -- 22% C20**  
-IHF Balancer liquidity pool earned swap fee is @ 0.95%
+IHF Balancer liquidity pool earned swap fee is @ 1.19% (per trade)
 
 Providing USD\$ 10,000 worth of IHF -- C20 liquidity,  
 For illustration:
@@ -103,14 +103,15 @@ Current market amounts, buy:sell sides- totaling ~$223K
 
 ## \$BAL Annual rewards / IL protection
 
-The yield generated on IHF token Balancer pools derives from swap fees of between 95-119 basis points (per trade), in addition to annual BAL distribution rewards.  
-This shows how pairing IHF tokens within the pool using a higher ratio than 50/50, serves as protection against impermanence loss (IL) in the following example:
+The yield generated on IHF token Balancer pools derives from swap fees of in the range of 119 basis points (per trade), in addition to annual BAL distribution rewards.  
+To show how pairing IHF tokens within the pool; using a higher ratio than 50/50, serves as protection against impermanence loss (IL) in the following examples:
 
 ### Pool A  
-Pairs with _WETH_, ratio factor of 0.75
+Pairs with _WETH_, ratio factor of 0.80
 
-***IHF -- WETH*** (_0.75_)  
-75% : 25%  
+***IHF -- WETH*** (_0.80_)  
+80% : 20%  
+(Liquidity pool with 2-assets)
 
 ### Pool B 
 Pairs with _C20_, ratio factor of 0.75
@@ -123,7 +124,9 @@ Pairs with _C20_, ratio factor of 0.75
 66% : 12%
 
 *C20* -- USDC (0.65)  
-22% : 12%
+22% : 12%  
+(Liquidity pool with 3-assets)
+
 
 ## Usage
 
@@ -168,35 +171,36 @@ OVEX - https://www.ovex.io/products/c20
 ### Information on Liquidity Pools  
 #### Liquidity Pool management
 -- https://pools.balancer.exchange (Balancer pools management)  
--- https://docs.balancer.finance/protocol/bal-liquidity-mining  
-(BAL Distribution)
+-- https://docs.balancer.finance/protocol/bal-liquidity-mining 
+(BAL Distribution)  
+-- https://bal-reports.herokuapp.com (weekly BAL distribution reports)  
 
 #### Statistics
 -- https://pools.fyi/#/?platform=balancer (Liquidity Pools tracker)  
 -- https://pools.vision (ability to filter views of selected pools in the header)  
--- https://bal-reports.herokuapp.com (weekly BAL distribution reports)  
 -- https://www.prediction.exchange/balancer (Annual BAL rewards)
 
 
 ### Upcoming liquidity pools
-Now you can swap directly between IHF and C20 tokens
+Now you can swap directly between IHF and C20 tokens with Pool B - still gathering feedback, whether there is a need for such a smart pool or shared/private pool
 
-When there is keen interest in Balancer pools with DZAR pairings, might be up for consideration to have a IHF / C20 pool linking to the stablecoin.
+When there is keen interest in Balancer pools with DZAR pairings, might be up for consideration to have a IHF and/or C20 pool linking to the stablecoin.
 
 ### Remarks
+Before writing this guide, was perusing this article on [80/20 Balancer Pools](https://medium.com/balancer-protocol/80-20-balancer-pools-ad7fed816c8d). So, a fellow DeFi enthusiast later shared a concise reading about Swing trading with [High-fee Balancer Pools](https://medium.com/balancer-protocol/high-fee-balancer-pools-for-swing-trading-8bc1c169a4c2). I was now hooked.
 
-While researching on the equity holdings in the closed-end Hyperion Fund holdings and having read the whitepaper, which stating that:  
+Midst of researching on the equity holdings in the closed-end Hyperion Fund holdings and having read the whitepaper, which states that:  
 
 > Token holders can realize their returns by selling into the purchase order made by the Hyperion Fund. Tokens purchased by the Fund are then destroyed, thereby reducing the supply of tokens. 
 
 https://cdn.invictuscapital.com/whitepapers/hyperion.pdf
 
-This inspires confidence that in the longer term, given that the tokenized closed-end VC fund is performing well, allowance of token buy-and-burns occuring every quarter, will propel the price of the token to stay close to the NAV.
+This inspires confidence that in the longer term, given that the tokenized closed-end VC fund is performing well, allowance of token buy-and-burns are occuring every quarter, sought to propel the price of the token to closing towards the NAV.
 
-If you are reading this IHF Balancer Pool tutorial guide and find that it piques your interests (so do I); am active in the #hyperion-ihf community, not affiliated with Invictus Capital.  
-Thanks to the Hyperion community, especially mention `prof_k` for his wonderful guidance on creating the IHF Balancer Pool, and the DeFi concepts gleaned from the discussion
+Well, if you are reading this IHF Balancer Pool tutorial guide and find that it piques your interests (so do I); you can start by being active in the #hyperion-ihf; as part of  the community, I'm not affiliated with Invictus Capital.  
 
-Join the comumnity discussion on discord in the #hyperion-ihf channel:
+Thanks to the Hyperion community, especially `prof_k` for the wonderful guidance when creating the IHF Balancer Pool, and the DeFi concepts gleaned from the discussion. 
+Join in the discussion on discord - #hyperion-ihf channel:
 https://invictuscapital.com/hyperionFund
 
 _Thank you for reading!_
