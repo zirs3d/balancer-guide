@@ -67,7 +67,7 @@ For illustration:
 ### BAL governance tokens
 
 BAL token imparts governance/voting rights, which incentivize liquidity providers aiming to achieve yield on IHF holdings, along with future improvements reaping gas savings over time.  
-There are shared token pools of varying degrees of liquidity, and pool fees. IHF Balancer Pools are  whitelisted, and approved for the BAL Governance distribution rewards.  
+There are shared token pools of varying degrees of liquidity, and pool fees. IHF Balancer Pools are whitelisted, and approved for the BAL Governance distribution rewards.  
 
 -- About BAL governance tokens:  
 https://docs.balancer.finance/protocol/bal-balancer-governance-token
@@ -104,8 +104,8 @@ Current market amounts, buy:sell sides- totaling ~$223K
 
 ## \$BAL Annual rewards / IL protection
 
-The yield generated on IHF token Balancer pools derives from swap fees of in the range of 119 basis points (per trade), in addition to annual BAL distribution rewards.  
-To show how pairing IHF tokens within the pool; using a higher ratio than 50/50, serves as protection against impermanence loss (IL) in the following examples:
+The yield generated on the IHF token Balancer pools derives from swap fees of 119 basis points (per trade), in addition to annual BAL distribution rewards.  
+To show how pairing IHF tokens within the pool; by using a higher ratio than 50/50 serves as protection against impermanence loss (IL), as seen in the following examples:
 
 ### Pool A  
 Pairs with _WETH_, ratio factor of 0.80
@@ -196,9 +196,9 @@ Midst of researching on the equity holdings in the closed-end Hyperion Fund hold
 
 https://cdn.invictuscapital.com/whitepapers/hyperion.pdf
 
-This inspires confidence that in the longer term, given that the tokenized closed-end VC fund is performing well, allowance of token buy-and-burns are occuring every quarter, sought to propel the price of the token to closing towards the NAV.
+This inspires confidence in the longer term, given that the tokenized closed-end VC fund is performing well, allowance of token buy-and-burns are occuring every quarter, sought to propel the price of the token closing towards the NAV.
 
-Well, if you are reading this IHF Balancer Pool tutorial guide and find that it piques your interests (so do I); you can start by being active in the #hyperion-ihf; as part of  the community, I'm not affiliated with Invictus Capital.  
+Well, if you are reading this IHF Balancer Pool introduction guide and find that it piques your interests (so do I); you can start by being active in the #hyperion-ihf channel; be part of the community, this is a side-project of mine and I'm not affiliated with Invictus Capital.  
 
 Thanks to the Hyperion community, especially `prof_k` for the wonderful guidance when creating the IHF Balancer Pool, and the DeFi concepts gleaned from the discussion. 
 Join in the discussion on discord - #hyperion-ihf channel:
