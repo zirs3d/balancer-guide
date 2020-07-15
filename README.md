@@ -6,7 +6,7 @@ _A short introduction guide to Balancer_
 - [x] First steps  
        _-- prelim draft --_  
        _-- awaiting quarterly Report - Hyperion Q2 Report --_
-- [x] Listing on Balancer Finance  
+- [ ] Listing on Balancer Finance  
        _-- The IHF token now has a NAV of $0.1765 --_
 
 > …by implementing the token buy-and-burn protocol. Much like a share repurchase in
@@ -201,7 +201,7 @@ Well, if you are reading this IHF Balancer Pool tutorial guide and find that it 
 
 Thanks to the Hyperion community, especially `prof_k` for the wonderful guidance when creating the IHF Balancer Pool, and the DeFi concepts gleaned from the discussion. 
 Join in the discussion on discord - #hyperion-ihf channel:
-https://invictuscapital.com/hyperionFund
+https://invictuscapital.com/hyperionFund#aboutHyperion
 
 _Thank you for reading!_
 
