@@ -53,7 +53,7 @@ For illustration:
 ### Pool B: IHF -- C20 Balancer
 
 IHF -- C20 Balancer Pool address:  
-**66% IHF -- 12% USDC -- 22% C20**  
+**74% IHF -- 8% USDC -- 18% C20**  
 IHF Balancer liquidity pool earned swap fee is @ 1.19% (per trade)
 
 Providing USD\$ 10,000 worth of IHF -- C20 liquidity,  
@@ -61,8 +61,8 @@ For illustration:
 
 - Staking 56,657 IHF tokens
   (quoted price @ NAV \$0.1765)
-- Staking \$ 3,333 worth of C20 tokens
-- Staking \$ 1,818 worth of USDC tokens
+- Staking \$ 2,430 worth of C20 tokens
+- Staking \$ 1,080 worth of USDC tokens
 
 ### BAL governance tokens
 
@@ -115,17 +115,17 @@ Pairs with _WETH_, ratio factor of 0.80
 (Liquidity pool with 2-assets)
 
 ### Pool B 
-Pairs with _C20_, ratio factor of 0.75
+Pairs with _C20_, ratio factor of 0.80
 
 
-***IHF -- C20*** (_0.75_)  
-66% : 22%  
+***IHF -- C20*** (_0.80_)  
+74% : 18%  
 
-*IHF* -- USDC (_0.85_)  
-66% : 12%
+*IHF* -- USDC (_0.90_)  
+74% : 8%
 
-*C20* -- USDC (0.65)  
-22% : 12%  
+*C20* -- USDC (0.69)  
+18  % : 8%  
 (Liquidity pool with 3-assets)
 
 
