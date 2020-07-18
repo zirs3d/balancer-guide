@@ -30,7 +30,7 @@ Balancer Finance - https://balancer.finance
 
 ## Liquidity Pooling on Balancer
 
-To strike a fine balance between slippage and APR, much like arbing on the usual exchanges with WETH/USDC pairings with Hyperion Fund (IHF) token, a Liquidity Provider (LP) participates in trading volume (earns liquidity pool token swap-fees) with Balancer Pool-liquidity tokens (BPT). By supplying to a Balancer Pool, LPs also receive weekly BAL Governance tokens.  
+To strike a fine balance between slippage and APR, and facilitate arbitraging on the usual exchanges with WETH/USDC pairings with Hyperion Fund (IHF) token, a Liquidity Provider (LP) participates in trading volume (earns liquidity pool token swap-fees) with Balancer Pool-liquidity tokens (BPT). By supplying to a Balancer Pool, LPs also receive weekly BAL Governance tokens.  
 -- Using Liquidity Pools - https://pools.balancer.exchange  
 -- Liquidity Pools tracker - https://pools.fyi/#/?platform=balancer  
 
@@ -183,12 +183,34 @@ OVEX - https://www.ovex.io/products/c20
 
 
 ### Upcoming liquidity pools
-Now you can swap directly between IHF and C20 tokens with Pool B - still gathering feedback, whether there is a need for such a smart pool or shared/private pool
+Now you can swap directly between IHF and C20 tokens with Pool B - (still gathering feedback) whether there is a need for such a smart pool or shared/private pool
 
 When there is keen interest in Balancer pools with DZAR pairings, might be up for consideration to have a IHF and/or C20 pool linking to the stablecoin.
 
 ### Remarks
 Before writing this guide, was perusing this article on [80/20 Balancer Pools](https://medium.com/balancer-protocol/80-20-balancer-pools-ad7fed816c8d). So, a fellow DeFi enthusiast later shared a concise reading about Swing trading with [High-fee Balancer Pools](https://medium.com/balancer-protocol/high-fee-balancer-pools-for-swing-trading-8bc1c169a4c2). I was now hooked.
+
+`Update:` The levied fees per trade remains the same @ 1.19%. The circulating IHF tokens are rather scarce, so with the upcoming vote on the FeeFactor, pools charging a higher fee would be penalized less, to make it sustainable for liquidity providers without dependance on BAL subsidy.
+
+https://forum.balancer.finance/t/modifying-feefactor-toward-reducing-the-mining-penalty-for-high-fee-pools/103
+
+#### The DeFi Difference:  
+Fees are accrued and available upon withdrawal from the pool, and BAL rewards are a nice bonus, the main gist is that as a continuously rebalancing pool; which behaves like a swing trading strategy, prices are set automatically using the constant mean market maker mechanism, which keeps overall reserves in relative equilibrium.
+
+$$
+\prod_{i=1}^{n} R_{i}^{w_{i}} = k,
+$$  
+  
+https://balancer.finance/whitepaper
+  
+
+With a larger pool of liquidity, more traders yearning for low slippage are led to the proverbial pot of gold. The IHF Balancer Pool smart contract holds those liquidity reserves, and the trades are executed directly against these reserves. 
+
+Reserves are pooled between a network of liquidity providers who supply the system with tokens via DSProxy contracts, thereby receiving a proportional share of transaction fees accrued. 
+
+https://medium.com/bollinger-investment-group/constant-function-market-makers-defis-zero-to-one-innovation-968f77022159
+
+### Tokenized Venture Capital Fund
 
 Midst of researching on the equity holdings in the closed-end Hyperion Fund holdings and having read the whitepaper, which states that:  
 
@@ -204,8 +226,7 @@ Thanks to the Hyperion community, especially `prof_k` for the wonderful guidance
 Join in the discussion on discord - #hyperion-ihf channel:
 https://invictuscapital.com/hyperionFund#aboutHyperion
 
+
 _Thank you for reading!_
-
-
 
 {%hackmd theme-dark %}
