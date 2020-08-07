@@ -185,7 +185,7 @@ OVEX - https://www.ovex.io/products/c20
 ### Upcoming liquidity pools
 Now you can swap directly between IHF and C20 tokens with Pool B - (still gathering feedback) whether there is a need for such a smart pool or shared/private pool
 
-When there is keen interest in Balancer pools with DZAR pairings, might be up for consideration to have a IHF and/or C20 pool linking to the stablecoin.
+When there is keen interest in Balancer pools with stablecoin pairings, might be up for consideration to have a IHF and/or C20 pool linking to stablecoins.
 
 ### Remarks
 Before writing this guide, was perusing this article on [80/20 Balancer Pools](https://medium.com/balancer-protocol/80-20-balancer-pools-ad7fed816c8d). So, a fellow DeFi enthusiast later shared a concise reading about Swing trading with [High-fee Balancer Pools](https://medium.com/balancer-protocol/high-fee-balancer-pools-for-swing-trading-8bc1c169a4c2). I was now hooked.
