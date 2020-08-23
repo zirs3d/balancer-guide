@@ -5,7 +5,7 @@ _A short introduction guide to Balancer_
 - [x] First steps  
        _-- prelim draft --_  
        _-- awaiting Quarterly Report - Hyperion Q2 Report --_
-- [ ] Listing on Balancer Finance  
+- [x] Listing on Balancer Finance  
        _-- The IHF token now has a NAV of $0.1765 --_
 
 [![hackmd-github-sync-badge](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg/badge)](https://hackmd.io/A3KJrYOeSxqTRN9Qk_AwNg)
@@ -164,7 +164,6 @@ Totle Swap exchange via swap.totle.com
 
 ### Exchanges
 Balancer Exchange - https://balancer.exchange  
-Liquid - https://liquid.com  
 IDEX - https://idex.exchange  
 OVEX - https://www.ovex.io/products/c20
 
@@ -178,8 +177,7 @@ OVEX - https://www.ovex.io/products/c20
 
 #### Statistics
 -- https://pools.fyi/#/?platform=balancer (Liquidity Pools tracker)  
--- https://pools.vision (ability to filter views of selected pools in the header)  
--- https://www.prediction.exchange/balancer (Annual BAL rewards)
+-- https://pools.vision (ability to filter views of selected pools in the header and  sort by annual BAL rewards)
 
 
 ### Upcoming liquidity pools
