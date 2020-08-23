@@ -185,8 +185,8 @@ Weekly BAL distribution reports
 Liquidity Pools tracker  
 -- https://pools.fyi/#/?platform=balancer  
   
-Full listing and ability to filter views of selected pools in the header and  sort by annual BAL rewards)  
--- https://pools.vision [(IHF token)](https://pools.vision/portfolio/0x07b18c2686f3d1ba0fa8c51edc856819f2b1100a,0xbaa35c7a1f0bdf7ea92fd9ecaa72539c6f0c564c,0xaded062426863b6c60ac59217bc956447bd5deef,0xcf2e274fc7d55d3d2b1c50d5b937ec76cfb8d253)  
+Full listing and ability to filter views of selected pools in the header sorted by annual BAL rewards  
+-- https://pools.vision ([IHF token](https://pools.vision/portfolio/0x07b18c2686f3d1ba0fa8c51edc856819f2b1100a,0xbaa35c7a1f0bdf7ea92fd9ecaa72539c6f0c564c,0xaded062426863b6c60ac59217bc956447bd5deef,0xcf2e274fc7d55d3d2b1c50d5b937ec76cfb8d253))  
 
 
 ### Upcoming liquidity pools
