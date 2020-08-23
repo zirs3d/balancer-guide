@@ -164,20 +164,29 @@ Totle Swap exchange via swap.totle.com
 
 ### Exchanges
 Balancer Exchange - https://balancer.exchange  
+Uniswap Info - https://uniswap.info ([IHF token](https://uniswap.info/token/0xaf1250fa68d7decd34fd75de8742bc03b29bd58e))  
+Mooniswap Info - https://mooniswap.info ([IHF token](https://mooniswap.info/token/0xaf1250fa68d7decd34fd75de8742bc03b29bd58e))  
 IDEX - https://idex.exchange  
 OVEX - https://www.ovex.io/products/c20
 
 
 ### Information on Liquidity Pools  
 #### Liquidity Pool management
--- https://pools.balancer.exchange (Balancer pools management)  
+Balancer pools management  
+-- https://pools.balancer.exchange  
+
+BAL Distribution  
 -- https://docs.balancer.finance/protocol/bal-liquidity-mining 
-(BAL Distribution)  
--- https://bal-reports.herokuapp.com (weekly BAL distribution reports)  
+
+Weekly BAL distribution reports  
+-- https://bal-reports.herokuapp.com   
 
 #### Statistics
--- https://pools.fyi/#/?platform=balancer (Liquidity Pools tracker)  
--- https://pools.vision (ability to filter views of selected pools in the header and  sort by annual BAL rewards)
+Liquidity Pools tracker  
+-- https://pools.fyi/#/?platform=balancer  
+  
+Full listing and ability to filter views of selected pools in the header and  sort by annual BAL rewards)  
+-- https://pools.vision [(IHF token)](https://pools.vision/portfolio/0x07b18c2686f3d1ba0fa8c51edc856819f2b1100a,0xbaa35c7a1f0bdf7ea92fd9ecaa72539c6f0c564c,0xaded062426863b6c60ac59217bc956447bd5deef,0xcf2e274fc7d55d3d2b1c50d5b937ec76cfb8d253)  
 
 
 ### Upcoming liquidity pools
